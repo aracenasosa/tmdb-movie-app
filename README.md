@@ -38,12 +38,6 @@ Install dependencies:
 npm install
 ```
 
-## Getting started
-
-```bash
-npm install
-```
-
 Create a `.env` file:
 
 ```
