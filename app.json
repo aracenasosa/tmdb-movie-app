@@ -1,37 +1,42 @@
 {
   "expo": {
-    "name": "sweat-works",
-    "slug": "sweat-works",
+    "name": "TMDB Movie App by sweat-works",
+    "slug": "tmdb-movie-app",
     "version": "1.0.0",
-
     "web": {
       "favicon": "./assets/favicon.png"
     },
-
     "experiments": {
       "tsconfigPaths": true
     },
-
-    "plugins": [],
-
+    "plugins": [
+      "expo-router"
+    ],
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-
-    "userInterfaceStyle": "light",
-
+    "userInterfaceStyle": "dark",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/img/splash-screen.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#242A32"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true
     },
     "android": {
+      "package": "com.sweatworks.movieapp",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#242A32"
+      }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "06919fc0-f552-45dc-9fad-4c8a81fb1315"
       }
     }
   }

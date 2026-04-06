@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  :root {
+    --background: #FFFFFF;
+    --foreground: #111827;
+    --primary: #0296E5;
+    --card: #F0F0F0;
+    --card-foreground: #111827;
+    --border: #E5E7EB;
+    --muted: #92929D;
+    --rating: #FF8700;
+    --input-bg: #E8E8E8;
+  }
+
+  .dark:root {
+    --background: #242A32;
+    --foreground: #FFFFFF;
+    --primary: #0296E5;
+    --card: #3A3F47;
+    --card-foreground: #FFFFFF;
+    --border: #3A3F47;
+    --muted: #92929D;
+    --rating: #FF8700;
+    --input-bg: #3A3F47;
+  }
+}
